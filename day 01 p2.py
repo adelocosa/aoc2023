@@ -24,7 +24,7 @@ def parse_line(line: str) -> list[str]:
 
 
 values = []
-for line in get_input(1).split("\n")[:-1]:
+for line in get_input(1):
     parsed = parse_line(line)
     values.append(int(parsed[0] + parsed[-1]))
 

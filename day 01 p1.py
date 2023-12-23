@@ -1,7 +1,7 @@
 from utils import *
 
 values = []
-for line in get_input(1).split("\n")[:-1]:
+for line in get_input(1):
     value = ""
     for character in line:
         if character.isdigit():
